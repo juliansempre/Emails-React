@@ -1,0 +1,74 @@
+*{margin:0; padding:0; border:none;}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+body{
+    background-color:black;
+    display: grid;
+    place-items: center;
+    height:100vh;
+    background-image: linear-gradient(45deg, black, rgb(0, 0, 110));
+}
+.colorido{
+    
+    width: 350px;
+    height:auto;
+    padding-top:5px;
+    padding-bottom:5px;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(45deg, rgb(165, 0, 0), blue);
+    border-radius:5px;
+        
+}
+.bloco0{
+    background-color:black;
+    width:340px;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:5px;
+    text-align:center;
+    font-family: 'Comfortaa', cursive;
+    border:none;
+}
+
+.formte{
+    width: 300px;
+    height: 30px;
+    border-radius:5px;
+    background-color:gray;
+    color:white;
+}
+.forme{
+    width:300px;
+    height:60px;
+    border-radius:5px;
+    background-color:gray;
+    color:white;
+}
+.formb{
+    width:100px;
+    height:30px;
+    border-radius:5px;
+    background-image: linear-gradient(0deg, gray, rgb(50,50,50));
+    color:white;
+}
+input::placeholder {
+    color: rgb(200,200,200);
+  }
+.formb:hover{
+    background-image: linear-gradient(180deg, gray, rgb(50,50,50)); 
+}
+.forme:hover{
+    box-shadow:0px 0px 20px hwb(204 27% 0%);
+} 
+.formte:hover{
+    box-shadow:0px 0px 20px hwb(204 27% 0%);
+}
+
+p{
+    color:white;
+    margin-top:5%;
+}
